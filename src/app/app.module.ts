@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NameGeneratorComponent } from './name-generator/name-generator.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NameGeneratorComponent
+    NameGeneratorComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule

@@ -1,1 +1,11 @@
-<p>name-generator works!</p>
+<main class="name-generator-wrapper">
+    <div class="name-generator-button">
+      <button (click)="generateNewName()">Gerar nome</button>
+    </div>
+    <div class="name-generator-input">
+      <label for="name">
+        <input type="text" name="name" id="name" [value]="name"  />
+      </label>
+    </div>
+  </main>
+  

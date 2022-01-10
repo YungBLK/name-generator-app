@@ -1,0 +1,10 @@
+.name-generator-header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: cadetblue;
+    padding: 1.5rem;
+}
+
+.logo {
+    color: white;
+}

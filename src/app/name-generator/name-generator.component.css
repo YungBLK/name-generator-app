@@ -1,0 +1,28 @@
+.name-generator-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .name-generator-input {
+    margin-left: 0.5rem;
+  }
+  
+  .name-generator-input input {
+    border-radius: 12px;
+    border-width: 0.1px;
+    border-color: gray;
+    padding: 2px;
+    width: 250px;
+  }
+  
+  .name-generator-button button {
+    background-color: cadetblue;
+    border-color: white;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+    border-width: 0.1px;
+    border-radius: 8px;
+  }
+  
